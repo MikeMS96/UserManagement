@@ -1,0 +1,46 @@
+div{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+h1 {
+	text-align: center;
+	color: #C82333;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+label {
+	margin-left: 40px;
+	font-size: 20px;
+	color: #C82333;
+}
+
+input{
+	width: 50%;
+	float: right;
+	margin-right: 40px;
+	border-radius: 5px;
+	height: 30px;
+    font-size: 16px;
+    padding: 3px;
+}
+input:focus {
+	outline: none;
+}
+
+.btn-submit{
+	background: #C82333;
+	width: 200px;
+	color: white;
+}
+
+
+.btn-customRed:hover{
+    background: #C82333;
+    color: white;
+}
+.btn-edit{
+    border-radius: 50%;
+}

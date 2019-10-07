@@ -1,0 +1,20 @@
+<div class="card m-3">
+  <div class="row">
+      <div class="col-4">
+          <img class="card-img" src="assets/user.png" alt="Avatar">
+      </div>
+      <div class="col-8 pl-4">
+        <div class="card-body">
+          <h1 class="card-title">{{user.name}} 
+            <button routerLink="/editUser/{{user.id}}" class="btn btn-customRed btn-edit float-right" title="Edit">
+              <i class="fas fa-pen"></i>
+            </button>
+          </h1>   
+          <p class="card-text"><i class="fas fa-phone pr-1"></i> {{user.mobileNum}}</p>
+          <p class="card-text"><i class="fas fa-map-marker-alt pr-1"></i> {{user.location}}</p>
+        </div >
+      </div>
+  </div>
+</div>
+
+

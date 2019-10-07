@@ -1,0 +1,19 @@
+.btn-customRed{
+    color: white;
+    background: #C82333;
+}
+
+.search-bar input{
+    width: 90%; 
+    height: 40px;
+    border-radius: 6px;
+    padding-right: 30px;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+.search-bar a{
+    width: 120px;
+    height: 40px;
+}
