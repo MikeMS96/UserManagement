@@ -1,0 +1,23 @@
+.card-img{
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card{
+    min-width: 350px;
+}
+
+.card-title{
+    font-size:25px; 
+}
+
+.btn-customRed:hover{
+    background: #C82333;
+    color: white;
+}
+
+.btn-edit{
+    border-radius: 50%;
+    font-size: 13px;
+}
